@@ -9,7 +9,9 @@ int main()
     while (1)
     {
         scanf("%f %f",&oringnal_x1,&oringnal_z1);
+        scanf("%f %f",&terminal_x1,&terminal_z1);
         scanf("%f %f",&oringnal_x2,&oringnal_z2);
+        scanf("%f %f",&terminal_x2,&terminal_z2);
 
         k1=(terminal_z1-oringnal_z1)/(terminal_x1-oringnal_x1);
         k2=(terminal_z2-oringnal_z2)/(terminal_x2-oringnal_x2);
